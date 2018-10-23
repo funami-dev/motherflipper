@@ -8,6 +8,7 @@
     "build:wc": "vue-cli-service build --target wc --name 'mother-flipper' ./src/plugins/Motherflipper/main.wc.js",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
     "lint": "vue-cli-service lint --fix",
+    "prettier": "prettier --single-quote --list-different './src/**/*.*'",
     "test": "nyc jest --watch && codecov -t ''",
     "test:unit": "vue-cli-service test:unit",
     "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov -t '9a326458-3bbf-42c6-aec7-08b973f235dd'"
@@ -40,6 +41,13 @@
     "presets": [
       "@vue/app"
     ]
+  },
+  "prettier": {
+    "useTabs": false,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "printWidth": 120,
+    "trailingComma": "none"
   },
   "eslintConfig": {
     "root": true,

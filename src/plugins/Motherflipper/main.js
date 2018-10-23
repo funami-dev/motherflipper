@@ -1,8 +1,8 @@
-import Motherflipper from "./index";
+import Motherflipper from './index';
 
 const MotherflipperPlugin = {
   install(Vue) {
-    Vue.component("Motherflipper", Motherflipper);
+    Vue.component('Motherflipper', Motherflipper);
   }
 };
 

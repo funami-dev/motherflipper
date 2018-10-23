@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "Flipper",
+  name: 'Flipper',
   props: {
     start: {
       type: Number,
