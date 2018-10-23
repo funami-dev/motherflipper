@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Motherflipper :start="0" :end="100" :speed="180" :flip="true"/>
+    <Motherflipper :start="0" :end="100" :speed="20" />
   </div>
 </template>
 

@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
+    "build:wc": "vue-cli-service build --target wc --name 'mother-flipper' ./src/plugins/Motherflipper/main.wc.js",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
     "lint": "vue-cli-service lint --fix",
     "test": "nyc jest --watch && codecov -t ''",
