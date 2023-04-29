@@ -33,7 +33,7 @@
     "eslint-plugin-html": "^4.0.3",
     "jest": "^22.4.3",
     "node-sass": "^4.8.3",
-    "nyc": "^11.8.0",
+    "nyc": "^15.1.0",
     "sass-loader": "^7.0.1",
     "vue-template-compiler": "^2.5.13"
   },
